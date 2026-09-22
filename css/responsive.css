@@ -1,0 +1,686 @@
+/* =========================================================
+   HERO - TABLET
+========================================================= */
+
+@media (max-width: 1024px) {
+
+    .hero-container {
+        grid-template-columns: 1fr 0.8fr;
+
+        gap: 40px;
+    }
+
+    .hero-content h1 {
+        font-size: 60px;
+    }
+
+    .hero-photo-wrapper {
+        width: 300px;
+        height: 400px;
+    }
+
+}
+
+
+/* =========================================================
+   HERO - MOBILE
+========================================================= */
+
+@media (max-width: 768px) {
+
+    .home {
+        padding: 110px 25px 90px;
+    }
+
+
+
+    .hero-content h1 span {
+        display: inline;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+
+        gap: 40px;
+
+        text-align: center;
+    }
+
+    /* FOTO DI ATAS */
+    .hero-visual {
+        order: 1;
+
+        width: 100%;
+        min-height: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* TEXT DI BAWAH FOTO */
+    .hero-content {
+        order: 2;
+    }
+
+    .hero-photo-wrapper {
+        width: 250px;
+        height: 320px;
+    }
+
+    .hero-glow {
+        width: 270px;
+        height: 270px;
+    }
+
+    .hero-photo-label {
+        right: calc(50% - 145px);
+        bottom: 15px;
+    }
+
+    .hero-content h1 {
+    font-size: 36px;
+    letter-spacing: -1px;
+    white-space: nowrap;
+}
+
+    .hero-content h2 {
+        font-size: 17px;
+    }
+
+    .hero-description {
+        margin-left: auto;
+        margin-right: auto;
+
+        font-size: 13px;
+    }
+
+    .hero-line {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-skills {
+        justify-content: center;
+    }
+
+    .home-cta {
+        justify-content: center;
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .home-btn {
+        width: 220px;
+    }
+
+    .scroll-indicator {
+        display: none;
+    }
+
+     /* ABOUT SECTION */
+    .about {
+        padding: 100px 25px 80px;
+    }
+
+    /* HEADING */
+    .about .section-heading {
+        margin-bottom: 45px;
+    }
+
+    .about .section-heading h2 {
+        font-size: 36px;
+    }
+
+    /* PROFILE */
+    .profile {
+        width: 100%;
+        margin: 0 auto 70px;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        gap: 35px;
+
+        text-align: center;
+    }
+
+    /* PROFILE IMAGE */
+    .profile-image {
+        width: 230px;
+        height: 290px;
+
+        flex-shrink: 0;
+    }
+
+    .profile-image img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+        object-position: center top;
+    }
+
+    /* PROFILE CONTENT */
+    .profile-content {
+        width: 100%;
+    }
+
+    .profile-content h3 {
+        font-size: 24px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .profile-content p {
+        font-size: 14px;
+        line-height: 1.8;
+        text-align: justify;
+        margin-bottom: 14px;
+    }
+
+    /* EDUCATION */
+    .education {
+        width: 100%;
+        margin: 0 auto 60px;
+    }
+
+    .about-block-heading {
+        margin-bottom: 18px;
+    }
+
+    .about-block-heading h3 {
+        font-size: 24px;
+    }
+
+      /* HAMBURGER BUTTON */
+
+    .menu-toggle {
+        position: relative;
+        z-index: 1002;
+
+        display: flex;
+
+        width: 38px;
+        height: 38px;
+
+        padding: 8px;
+
+        border: none;
+
+        background: transparent;
+
+        cursor: pointer;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap: 5px;
+    }
+
+
+    .menu-toggle span {
+        display: block;
+
+        width: 22px;
+        height: 1px;
+
+        background: #ffffff;
+
+        transition:
+            transform 0.3s ease,
+            opacity 0.3s ease;
+    }
+
+
+    /* NAVIGATION CONTAINER */
+
+    .nav-links {
+        position: fixed;
+
+        top: 0;
+        right: -100%;
+
+        width: 100%;
+        height: 100vh;
+
+        padding: 110px 35px 50px;
+
+        background: rgba(2, 6, 23, 0.98);
+
+        backdrop-filter: blur(15px);
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: flex-start;
+        justify-content: flex-start;
+
+        gap: 28px;
+
+        transition: right 0.4s ease;
+
+        z-index: 1000;
+    }
+
+
+    /* MENU OPEN */
+
+    .nav-links.active {
+        right: 0;
+    }
+
+
+    /* NAVIGATION LINK */
+
+    .nav-link {
+        margin-left: 0;
+
+        font-family: 'Playfair Display', serif;
+
+        font-size: 28px;
+
+        color: #e5e7eb;
+
+        opacity: 0;
+
+        transform: translateX(20px);
+
+        transition:
+            opacity 0.3s ease,
+            transform 0.3s ease,
+            color 0.3s ease;
+    }
+
+
+    /* LINK APPEARS */
+
+    .nav-links.active .nav-link {
+        opacity: 1;
+
+        transform: translateX(0);
+    }
+
+
+    .nav-links.active .nav-link:nth-child(1) {
+        transition-delay: 0.1s;
+    }
+
+    .nav-links.active .nav-link:nth-child(2) {
+        transition-delay: 0.15s;
+    }
+
+    .nav-links.active .nav-link:nth-child(3) {
+        transition-delay: 0.2s;
+    }
+
+    .nav-links.active .nav-link:nth-child(4) {
+        transition-delay: 0.25s;
+    }
+
+    .nav-links.active .nav-link:nth-child(5) {
+        transition-delay: 0.3s;
+    }
+
+
+    /* ACTIVE INDICATOR */
+
+    .nav-indicator {
+        display: none;
+    }
+
+
+    /* HAMBURGER → X */
+
+    .menu-toggle.active span:nth-child(1) {
+        transform: translateY(6px) rotate(45deg);
+    }
+
+    .menu-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle.active span:nth-child(3) {
+        transform: translateY(-6px) rotate(-45deg);
+    }
+
+    .education-item {
+        padding: 22px 0;
+    }
+
+    .education-content h4 {
+        font-size: 17px;
+    }
+
+    .education-content p {
+        font-size: 13px;
+    }
+
+    /* SKILLS */
+    .skills {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .skill-list {
+        gap: 10px;
+    }
+
+    .skill-list span {
+        padding: 8px 14px;
+        font-size: 12px;
+    }
+
+        /* EXPERIENCE SECTION */
+    .experience {
+        padding: 100px 25px 80px;
+    }
+
+    /* SECTION HEADING */
+    .experience .section-heading {
+        margin-bottom: 45px;
+    }
+
+    .experience .section-heading h2 {
+        font-size: 36px;
+    }
+
+    /* EXPERIENCE LIST */
+    .experience-list {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* EXPERIENCE ITEM */
+    .experience-item {
+        display: block;
+        padding: 35px 0;
+
+        /* pastikan garis kiri tidak muncul */
+        border-left: none !important;
+
+        /* garis pemisah horizontal */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .experience-item:first-child {
+        padding-top: 0;
+    }
+
+    /* NUMBER */
+    .experience-number {
+        margin-bottom: 15px;
+
+        color: #94a3b8;
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+
+    /* MAIN CONTENT */
+    .experience-main {
+        width: 100%;
+    }
+
+    /* HEADER */
+    .experience-header {
+        display: flex;
+        flex-direction: column;
+
+        gap: 8px;
+        margin-bottom: 22px;
+    }
+
+    /* TYPE */
+    .experience-type {
+        margin-bottom: 7px;
+
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+  /* JOB TITLE */
+    .experience-header h3 {
+        margin-bottom: 6px;
+
+        font-size: 23px;
+        line-height: 1.35;
+    }
+
+    /* COMPANY */
+    .experience-header h4 {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    /* DATE */
+    .experience-date {
+        display: block;
+
+        color: #94a3b8;
+        font-size: 11px;
+
+        white-space: normal;
+    }
+
+    /* DESCRIPTION */
+    .experience-description {
+        font-size: 13px;
+        line-height: 1.8;
+    }
+
+    .experience-description p {
+        margin-bottom: 14px;
+    }
+
+    /* LIST */
+    .experience-description ul {
+        padding-left: 18px;
+    }
+
+    .experience-description li {
+        margin-bottom: 8px;
+        color: #cbd5e1;
+    }
+
+    /* SUBSECTION */
+    .experience-subsection {
+        margin-bottom: 28px;
+    }
+
+    /* SUBTITLE */
+    .experience-subtitle {
+        margin-bottom: 10px;
+
+        font-size: 10px;
+        letter-spacing: 1.8px;
+    }
+
+     .experience-description {
+        text-align: justify;
+    }
+  .cv {
+        padding: 100px 25px 80px;
+        min-height: auto;
+    }
+
+    .cv .section-heading {
+        margin-bottom: 45px;
+    }
+
+    .cv .section-heading h2 {
+        font-size: 36px;
+    }
+
+    .cv-content {
+        width: 100%;
+    }
+
+    .cv-content > p {
+        font-size: 14px;
+        line-height: 1.8;
+        margin-bottom: 28px;
+    }
+
+    .cv-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .cv-btn {
+        width: 100%;
+        min-width: 0;
+    }
+
+
+}
+
+
+/* =========================================================
+   HERO - SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .hero-photo-wrapper {
+        width: 220px;
+        height: 285px;
+    }
+
+    .hero-content h1 {
+        font-size: 30px;
+        letter-spacing: -0.8px;
+        white-space: nowrap;
+    }
+
+    .hero-content h1 span {
+        display: inline;
+    }
+
+    .hero-content h2 {
+        font-size: 15px;
+    }
+
+    .hero-description {
+        font-size: 12px;
+    }
+
+    .hero-skills span {
+        font-size: 8px;
+    }
+
+      /* CONTACT SECTION */
+
+    .contact {
+        padding: 100px 25px 80px;
+
+        min-height: auto;
+    }
+
+
+    /* SECTION HEADING */
+
+    .contact .section-heading {
+        margin-bottom: 45px;
+    }
+
+    .contact .section-heading h2 {
+        font-size: 36px;
+    }
+
+
+    /* CONTACT CONTENT */
+
+    .contact-content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    /* LABEL */
+
+    .contact-label {
+        margin-bottom: 12px;
+
+        font-size: 10px;
+
+        letter-spacing: 2px;
+    }
+
+
+    /* HEADING */
+
+    .contact-content h3 {
+        margin-bottom: 15px;
+
+        font-size: 30px;
+
+        line-height: 1.3;
+    }
+
+
+    /* DESCRIPTION */
+
+    .contact-content > p {
+        max-width: 100%;
+
+        margin-bottom: 35px;
+
+        font-size: 14px;
+
+        line-height: 1.8;
+    }
+
+
+    /* CONTACT LINKS */
+
+    .contact-links {
+        grid-template-columns: 1fr;
+
+        gap: 0;
+
+        width: 100%;
+    }
+
+
+    /* CONTACT ITEM */
+
+    .contact-item {
+        padding: 18px 0;
+
+        border-top: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+
+    /* TYPE */
+
+    .contact-type {
+        margin-bottom: 6px;
+
+        font-size: 9px;
+
+        letter-spacing: 1.8px;
+    }
+
+
+    /* VALUE */
+
+    .contact-value {
+        font-size: 13px;
+
+        overflow-wrap: anywhere;
+    }
+
+
+    /* HOVER DISABLE EFFECT ON MOBILE */
+
+    .contact-item:hover {
+        padding-left: 0;
+    }
+
+
+}
