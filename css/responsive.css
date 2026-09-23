@@ -4,6 +4,24 @@
 
 @media (max-width: 1024px) {
 
+      .welcome-title {
+        font-size: 60px;
+    }
+
+    .welcome-glow {
+        width: 500px;
+        height: 500px;
+    }
+
+    .circle-one {
+        width: 350px;
+        height: 350px;
+    }
+
+    .circle-two {
+        width: 220px;
+        height: 220px;
+    }
     .hero-container {
         grid-template-columns: 1fr 0.8fr;
 
@@ -27,6 +45,111 @@
 ========================================================= */
 
 @media (max-width: 768px) {
+
+   .welcome-content {
+        width: 100%;
+        padding: 25px;
+    }
+
+
+    /* TOP INFO */
+
+    .welcome-top {
+        top: 25px;
+        left: 25px;
+        right: 25px;
+
+        font-size: 8px;
+        letter-spacing: 1.5px;
+    }
+
+
+    /* MAIN TITLE */
+
+    .welcome-label {
+        margin-bottom: 16px;
+
+        font-size: 9px;
+        letter-spacing: 4px;
+    }
+
+    .welcome-title {
+        font-size: 44px;
+        line-height: 1.1;
+        letter-spacing: -0.5px;
+    }
+
+
+    /* ROLE */
+
+    .welcome-role {
+        margin-top: 20px;
+
+        font-size: 8px;
+        letter-spacing: 2.5px;
+    }
+
+    .welcome-role span {
+        margin: 0 5px;
+    }
+
+
+    /* LINE */
+
+    .welcome-line {
+        margin-top: 23px;
+    }
+
+
+    /* BOTTOM INFO */
+
+    .welcome-bottom {
+        bottom: 25px;
+        left: 25px;
+        right: 25px;
+
+        font-size: 7px;
+        letter-spacing: 1.5px;
+    }
+
+
+    /* BACKGROUND */
+
+    .welcome-glow {
+        width: 400px;
+        height: 400px;
+    }
+
+    .circle-one {
+        width: 280px;
+        height: 280px;
+
+        top: -100px;
+        right: -100px;
+    }
+
+    .circle-two {
+        width: 180px;
+        height: 180px;
+
+        bottom: -80px;
+        left: -70px;
+    }
+
+    .circle-three {
+        width: 100px;
+        height: 100px;
+
+        left: 5%;
+    }
+
+
+    /* SIDE LINES */
+
+    .welcome-line-left,
+    .welcome-line-right {
+        width: 12vw;
+    }
 
     .home {
         padding: 110px 25px 90px;
@@ -545,6 +668,125 @@
 ========================================================= */
 
 @media (max-width: 480px) {
+
+     .welcome-content {
+        padding: 20px;
+    }
+
+
+    /* TOP */
+
+    .welcome-top {
+        top: 20px;
+        left: 20px;
+        right: 20px;
+
+        font-size: 7px;
+        letter-spacing: 1.2px;
+    }
+
+
+    /* LABEL */
+
+    .welcome-label {
+        margin-bottom: 14px;
+
+        font-size: 8px;
+        letter-spacing: 3px;
+    }
+
+
+    /* TITLE */
+
+    .welcome-title {
+        font-size: 34px;
+        line-height: 1.15;
+    }
+
+
+    /* ROLE */
+
+    .welcome-role {
+        margin-top: 18px;
+
+        font-size: 7px;
+        letter-spacing: 1.8px;
+    }
+
+    .welcome-role span {
+        margin: 0 4px;
+    }
+
+
+    /* MAIN LINE */
+
+    .welcome-line {
+        margin-top: 20px;
+    }
+
+
+    /* BOTTOM */
+
+    .welcome-bottom {
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+
+        font-size: 6px;
+        letter-spacing: 1px;
+    }
+
+
+    /* GLOW */
+
+    .welcome-glow {
+        width: 300px;
+        height: 300px;
+    }
+
+
+    /* CIRCLES */
+
+    .circle-one {
+        width: 220px;
+        height: 220px;
+
+        top: -80px;
+        right: -80px;
+    }
+
+    .circle-two {
+        width: 140px;
+        height: 140px;
+
+        bottom: -60px;
+        left: -60px;
+    }
+
+    .circle-three {
+        width: 70px;
+        height: 70px;
+
+        top: 20%;
+        left: 3%;
+    }
+
+
+    /* SIDE LINES */
+
+    .welcome-line-left,
+    .welcome-line-right {
+        width: 8vw;
+    }
+
+
+    /* PARTICLES */
+
+    .welcome-particle {
+        width: 2px;
+        height: 2px;
+    }
+
 
     .hero-photo-wrapper {
         width: 220px;
