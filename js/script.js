@@ -220,3 +220,4 @@ const revealObserver = new IntersectionObserver(
 revealElements.forEach(element => {
     revealObserver.observe(element);
 });
+

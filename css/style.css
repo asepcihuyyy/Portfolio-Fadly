@@ -809,8 +809,7 @@ section {
 
 .hero-content h1 span {
     display: block;
-
-    color: #e5e7eb;
+    color: #7DD3FC;
 }
 
 
@@ -2543,4 +2542,1432 @@ section {
         font-size: 13px;
     }
 
+}
+
+/* =========================================================
+   HOME — PREMIUM CREATIVE COLOR PALETTE
+========================================================= */
+
+/* PERSONAL PORTFOLIO */
+.hero-label {
+    color: #7DD3FC;
+}
+
+/* MAIN NAME */
+.hero-content h1 {
+    color: #FFFFFF;
+}
+
+/* PRAMUDYA — SKY BLUE ACCENT */
+.hero-content h1 span {
+    color: #7DD3FC;
+}
+
+/* ROLE */
+.hero-content h2 {
+    color: #E2E8F0;
+}
+
+/* SMALL ACCENT BEFORE ROLE */
+.hero-content h2::before {
+    content: "";
+    display: inline-block;
+    width: 28px;
+    height: 1px;
+    background: #ffffff;
+    margin-right: 12px;
+    vertical-align: middle;
+    opacity: 0.9;
+}
+
+/* DESCRIPTION */
+.hero-description {
+    color: #94A3B8;
+}
+
+/* HORIZONTAL LINE */
+.hero-line {
+    background: #7DD3FC;
+    opacity: 0.7;
+}
+
+/* SKILLS */
+.hero-skills span {
+    color: #CBD5E1;
+    transition: color 0.3s ease;
+}
+
+/* FIRST SKILL — ACCENT */
+.hero-skills span:first-child {
+    color: #7DD3FC;
+}
+
+/* SECOND SKILL */
+.hero-skills span:nth-child(2) {
+    color: #E2E8F0;
+}
+
+/* THIRD SKILL */
+.hero-skills span:nth-child(3) {
+    color: #94A3B8;
+}
+
+/* SKILL HOVER */
+.hero-skills span:hover {
+    color: #FFFFFF;
+}
+
+/* SEPARATOR */
+.hero-skills span::after {
+    color: #475569;
+}
+
+/* PHOTO LABEL */
+.hero-photo-label {
+    color: #7DD3FC;
+    border-color: rgba(125, 211, 252, 0.25);
+}
+
+/* SCROLL INDICATOR */
+.scroll-indicator {
+    color: #94A3B8;
+}
+
+/* SCROLL LINE */
+.scroll-line {
+    background: #7DD3FC;
+    opacity: 0.65;
+}
+
+/* =========================================================
+   WELCOME SCREEN — PREMIUM CREATIVE COLOR
+========================================================= */
+
+/* SMALL HELLO LABEL */
+.welcome-screen .welcome-label {
+    color: #7DD3FC;
+}
+
+/* MAIN NAME */
+.welcome-screen .welcome-title {
+    color: #FFFFFF;
+}
+
+/* PRAMUDYA — SKY BLUE */
+.welcome-screen .welcome-title span {
+    color: #ffffff;
+}
+
+/* ROLE */
+.welcome-screen .welcome-role {
+    color: #ffffff;
+}
+
+/* DECORATIVE LINE */
+.welcome-screen .welcome-line {
+    background: #7DD3FC;
+}
+
+/* SMALL DESCRIPTION / TEXT */
+.welcome-screen .welcome-description {
+    color: #94A3B8;
+}
+
+
+/* =========================================================
+   SUBTLE GLOW
+========================================================= */
+
+.welcome-screen::before {
+    background: rgba(125, 211, 252, 0.08);
+}
+
+
+/* =========================================================
+   HOVER / INTERACTION
+========================================================= */
+
+.welcome-screen .welcome-title span {
+    transition: color 0.4s ease;
+}
+
+.welcome-screen:hover .welcome-title span {
+    color: #8EDBFF;
+}
+
+/* =========================================================
+   ABOUT ME — PREMIUM CREATIVE COLOR
+========================================================= */
+
+/* SECTION NUMBER */
+#about .section-number {
+    color: #7DD3FC;
+}
+
+/* SECTION TITLE */
+#about .section-heading h2 {
+    color: #FFFFFF;
+}
+
+/* PROFILE LABEL */
+#about .profile-label {
+    color: #7DD3FC;
+    letter-spacing: 3px;
+}
+
+/* PROFILE NAME */
+#about .profile-content h3 {
+    color: #FFFFFF;
+}
+
+/* PROFILE TEXT */
+#about .profile-content p {
+    color: #94A3B8;
+}
+
+/* HIGHLIGHT WORDS */
+#about .profile-content p strong {
+    color: #7DD3FC;
+}
+
+
+/* =========================================================
+   EDUCATION
+========================================================= */
+
+/* 01 */
+#about .education .about-block-heading span {
+    color: #7DD3FC;
+}
+
+/* Education */
+#about .education .about-block-heading h3 {
+    color: #FFFFFF;
+}
+
+/* 2024 */
+#about .education-year {
+    color: #7DD3FC;
+}
+
+/* School */
+#about .education-content h4 {
+    color: #E2E8F0;
+}
+
+/* Description */
+#about .education-content p {
+    color: #94A3B8;
+}
+
+
+/* =========================================================
+   SKILLS — ALTERNATING BLUE & WHITE
+========================================================= */
+
+#about .skill-list span {
+    color: #E2E8F0;
+    border-color: rgba(255, 255, 255, 0.18);
+
+    transition:
+        color 0.3s ease,
+        background 0.3s ease,
+        border-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+/* 1 — BLUE */
+#about .skill-list span:nth-child(odd) {
+    color: #7DD3FC;
+    border-color: rgba(125, 211, 252, 0.35);
+}
+
+/* 2 — WHITE */
+#about .skill-list span:nth-child(even) {
+    color: #FFFFFF;
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
+/* HOVER */
+#about .skill-list span:hover {
+    transform: translateY(-2px);
+    background: rgba(125, 211, 252, 0.08);
+    border-color: #7DD3FC;
+    color: #FFFFFF;
+}
+
+
+/* =========================================================
+   ABOUT DIVIDERS
+========================================================= */
+
+#about .education-item {
+    border-top-color: rgba(125, 211, 252, 0.18);
+    border-bottom-color: rgba(125, 211, 252, 0.18);
+}
+
+/* =========================================================
+   EXPERIENCE — PREMIUM CREATIVE COLOR
+========================================================= */
+
+/* SECTION NUMBER */
+#experience .section-number {
+    color: #7DD3FC;
+}
+
+/* SECTION TITLE */
+#experience .section-heading h2 {
+    color: #FFFFFF;
+}
+
+
+/* =========================================================
+   EXPERIENCE ITEM
+========================================================= */
+
+/* COMPANY / MAIN TITLE */
+#experience .experience-item h3 {
+    color: #FFFFFF;
+}
+
+/* ROLE / POSITION */
+#experience .experience-item h4 {
+    color: #7DD3FC;
+}
+
+/* DATE / PERIOD */
+#experience .experience-item .experience-date {
+    color: #7DD3FC;
+}
+
+/* DESCRIPTION */
+#experience .experience-item p {
+    color: #94A3B8;
+}
+
+
+/* =========================================================
+   EXPERIENCE META / LABEL
+========================================================= */
+
+#experience .experience-label {
+    color: #7DD3FC;
+}
+
+#experience .experience-item span {
+    color: #CBD5E1;
+}
+
+
+/* =========================================================
+   EXPERIENCE DIVIDER
+========================================================= */
+
+#experience .experience-item {
+    border-color: rgba(125, 211, 252, 0.18);
+}
+
+
+/* =========================================================
+   HOVER
+========================================================= */
+
+#experience .experience-item {
+    transition:
+        transform 0.35s ease,
+        border-color 0.35s ease;
+}
+
+#experience .experience-item:hover {
+    border-color: rgba(125, 211, 252, 0.45);
+}
+
+#experience .experience-item h3,
+#experience .experience-item h4 {
+    transition: color 0.3s ease;
+}
+
+#experience .experience-item:hover h3 {
+    color: #E2E8F0;
+}
+
+#experience .experience-item:hover h4 {
+    color: #7DD3FC;
+}
+
+/* =========================================================
+   CV — PREMIUM CREATIVE COLOR
+========================================================= */
+
+/* SECTION NUMBER */
+#cv .section-number {
+    color: #7DD3FC;
+}
+
+/* SECTION TITLE */
+#cv .section-heading h2 {
+    color: #FFFFFF;
+}
+
+
+/* =========================================================
+   CV CONTENT
+========================================================= */
+
+#cv .cv-content h3 {
+    color: #FFFFFF;
+}
+
+#cv .cv-content p {
+    color: #94A3B8;
+}
+
+
+/* =========================================================
+   CV LABEL / SMALL TEXT
+========================================================= */
+
+#cv .cv-label {
+    color: #7DD3FC;
+}
+
+#cv .cv-content span {
+    color: #CBD5E1;
+}
+
+
+/* =========================================================
+   CV BUTTON
+========================================================= */
+
+#cv .cv-btn {
+    color: #7DD3FC;
+    border-color: rgba(125, 211, 252, 0.4);
+
+    transition:
+        color 0.3s ease,
+        background 0.3s ease,
+        border-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+#cv .cv-btn:hover {
+    color: #0f172a;
+    background: #7DD3FC;
+    border-color: #7DD3FC;
+    transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   CV DECORATIVE LINE
+========================================================= */
+
+#cv .cv-line {
+    background: #7DD3FC;
+    opacity: 0.7;
+}
+
+/* =========================================================
+   CONTACT — PREMIUM CREATIVE COLOR
+========================================================= */
+
+/* SECTION NUMBER */
+#contact .section-number {
+    color: #7DD3FC;
+}
+
+/* SECTION TITLE */
+#contact .section-heading h2 {
+    color: #FFFFFF;
+}
+
+
+/* =========================================================
+   CONTACT INTRO
+========================================================= */
+
+#contact .contact-content h3 {
+    color: #FFFFFF;
+}
+
+#contact .contact-content p {
+    color: #94A3B8;
+}
+
+
+/* =========================================================
+   CONTACT ITEMS
+========================================================= */
+
+#contact .contact-item {
+    border-top-color: rgba(125, 211, 252, 0.15);
+
+    transition:
+        border-color 0.3s ease,
+        padding-left 0.3s ease;
+}
+
+/* ICON */
+#contact .contact-icon {
+    color: #7DD3FC;
+    border-color: rgba(125, 211, 252, 0.35);
+
+    transition:
+        color 0.3s ease,
+        background 0.3s ease,
+        border-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+/* LABEL */
+#contact .contact-type {
+    color: #94A3B8;
+}
+
+/* CONTACT VALUE */
+#contact .contact-value {
+    color: #E2E8F0;
+
+    transition: color 0.3s ease;
+}
+
+
+/* =========================================================
+   HOVER
+========================================================= */
+
+#contact .contact-item:hover {
+    border-top-color: rgba(125, 211, 252, 0.4);
+    padding-left: 8px;
+}
+
+#contact .contact-item:hover .contact-icon {
+    color: #FFFFFF;
+    background: rgba(125, 211, 252, 0.08);
+    border-color: #7DD3FC;
+    transform: translateY(-2px);
+}
+
+#contact .contact-item:hover .contact-value {
+    color: #7DD3FC;
+}
+
+
+/* =========================================================
+   CONTACT LINKS
+========================================================= */
+
+#contact a {
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+#contact a:hover {
+    color: #7DD3FC;
+}
+
+/* =========================================================
+   HOME — PREMIUM CREATIVE AGENCY BACKGROUND
+========================================================= */
+
+.home {
+    position: relative;
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 78% 25%,
+            rgba(56, 189, 248, 0.13),
+            transparent 28%
+        ),
+        radial-gradient(
+            circle at 18% 75%,
+            rgba(30, 64, 175, 0.12),
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #020617 0%,
+            #0b1730 45%,
+            #111f3d 100%
+        );
+}
+
+
+/* =========================================================
+   CREATIVE LIGHT ORBS
+========================================================= */
+
+.home::before,
+.home::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    border-radius: 50%;
+    filter: blur(90px);
+}
+
+
+/* BLUE LIGHT — TOP RIGHT */
+.home::before {
+    width: 420px;
+    height: 420px;
+
+    top: -180px;
+    right: -100px;
+
+    background: rgba(56, 189, 248, 0.10);
+}
+
+
+/* DEEP BLUE LIGHT — BOTTOM LEFT */
+.home::after {
+    width: 360px;
+    height: 360px;
+
+    bottom: -180px;
+    left: -120px;
+
+    background: rgba(37, 99, 235, 0.09);
+}
+
+
+/* =========================================================
+   SUBTLE EDITORIAL GRID
+========================================================= */
+
+.home .hero-container::before {
+    content: "";
+
+    position: absolute;
+    inset: -100px;
+
+    pointer-events: none;
+
+    background-image:
+        linear-gradient(
+            rgba(255, 255, 255, 0.025) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.025) 1px,
+            transparent 1px
+        );
+
+    background-size: 80px 80px;
+
+    mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        black 20%,
+        black 80%,
+        transparent
+    );
+
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        black 20%,
+        black 80%,
+        transparent
+    );
+
+    z-index: 0;
+}
+
+
+/* =========================================================
+   DIAGONAL CREATIVE LIGHT
+========================================================= */
+
+.home .hero-container::after {
+    content: "";
+
+    position: absolute;
+
+    width: 650px;
+    height: 1px;
+
+    right: -180px;
+    top: 35%;
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(125, 211, 252, 0.18),
+        transparent
+    );
+
+    transform: rotate(-35deg);
+
+    pointer-events: none;
+}
+
+
+/* =========================================================
+   KEEP CONTENT ABOVE BACKGROUND
+========================================================= */
+
+.home .hero-container > * {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* =========================================================
+   PREMIUM VIGNETTE
+========================================================= */
+
+.home {
+    box-shadow:
+        inset 0 120px 160px rgba(0, 0, 0, 0.18),
+        inset 0 -120px 160px rgba(0, 0, 0, 0.22);
+}
+
+/* =========================================================
+   ABOUT — PREMIUM CREATIVE AGENCY BACKGROUND
+   MASTER COLOR — SAME AS HOME
+========================================================= */
+
+.about {
+    position: relative;
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 20% 25%,
+            rgba(56, 189, 248, 0.09),
+            transparent 28%
+        ),
+        radial-gradient(
+            circle at 82% 75%,
+            rgba(30, 64, 175, 0.12),
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #020617 0%,
+            #0b1730 45%,
+            #111f3d 100%
+        );
+}
+
+
+/* =========================================================
+   CREATIVE LIGHT ORBS
+========================================================= */
+
+.about::before,
+.about::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    border-radius: 50%;
+    filter: blur(90px);
+}
+
+
+/* BLUE LIGHT — TOP LEFT */
+
+.about::before {
+    width: 400px;
+    height: 400px;
+
+    top: -180px;
+    left: -120px;
+
+    background: rgba(56, 189, 248, 0.08);
+}
+
+
+/* DEEP BLUE LIGHT — BOTTOM RIGHT */
+
+.about::after {
+    width: 380px;
+    height: 380px;
+
+    bottom: -180px;
+    right: -120px;
+
+    background: rgba(37, 99, 235, 0.09);
+}
+
+
+/* =========================================================
+   SUBTLE EDITORIAL GRID
+========================================================= */
+
+.about .section-container::before {
+    content: "";
+
+    position: absolute;
+    inset: -100px;
+
+    pointer-events: none;
+
+    background-image:
+        linear-gradient(
+            rgba(255, 255, 255, 0.025) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.025) 1px,
+            transparent 1px
+        );
+
+    background-size: 80px 80px;
+
+    mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        black 20%,
+        black 80%,
+        transparent
+    );
+
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        black 20%,
+        black 80%,
+        transparent
+    );
+
+    z-index: 0;
+}
+
+
+/* =========================================================
+   DIAGONAL CREATIVE LIGHT
+========================================================= */
+
+.about .section-container::after {
+    content: "";
+
+    position: absolute;
+
+    width: 650px;
+    height: 1px;
+
+    left: -180px;
+    top: 35%;
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(125, 211, 252, 0.16),
+        transparent
+    );
+
+    transform: rotate(35deg);
+
+    pointer-events: none;
+}
+
+
+/* =========================================================
+   KEEP CONTENT ABOVE BACKGROUND
+========================================================= */
+
+.about .section-container > * {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* =========================================================
+   PREMIUM VIGNETTE
+========================================================= */
+
+.about {
+    box-shadow:
+        inset 0 120px 160px rgba(0, 0, 0, 0.16),
+        inset 0 -120px 160px rgba(0, 0, 0, 0.22);
+}
+
+/* =========================================================
+   EXPERIENCE — PREMIUM CREATIVE AGENCY BACKGROUND
+   MASTER COLOR — SAME AS HOME
+========================================================= */
+
+.experience {
+    position: relative;
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 82% 22%,
+            rgba(56, 189, 248, 0.08),
+            transparent 28%
+        ),
+        radial-gradient(
+            circle at 18% 78%,
+            rgba(30, 64, 175, 0.13),
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #020617 0%,
+            #0b1730 45%,
+            #111f3d 100%
+        );
+}
+
+
+/* =========================================================
+   CREATIVE LIGHT ORBS
+========================================================= */
+
+.experience::before,
+.experience::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    border-radius: 50%;
+    filter: blur(90px);
+}
+
+
+/* BLUE LIGHT — TOP RIGHT */
+
+.experience::before {
+    width: 400px;
+    height: 400px;
+
+    top: -180px;
+    right: -120px;
+
+    background: rgba(56, 189, 248, 0.07);
+}
+
+
+/* DEEP BLUE LIGHT — BOTTOM LEFT */
+
+.experience::after {
+    width: 380px;
+    height: 380px;
+
+    bottom: -180px;
+    left: -120px;
+
+    background: rgba(37, 99, 235, 0.10);
+}
+
+
+/* =========================================================
+   SUBTLE EDITORIAL GRID
+========================================================= */
+
+.experience .section-container::before {
+    content: "";
+
+    position: absolute;
+    inset: -100px;
+
+    pointer-events: none;
+
+    background-image:
+        linear-gradient(
+            rgba(255, 255, 255, 0.022) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.022) 1px,
+            transparent 1px
+        );
+
+    background-size: 80px 80px;
+
+    mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        black 20%,
+        black 80%,
+        transparent
+    );
+
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        black 20%,
+        black 80%,
+        transparent
+    );
+
+    z-index: 0;
+}
+
+
+/* =========================================================
+   DIAGONAL CREATIVE LIGHT
+========================================================= */
+
+.experience .section-container::after {
+    content: "";
+
+    position: absolute;
+
+    width: 650px;
+    height: 1px;
+
+    right: -180px;
+    top: 45%;
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(125, 211, 252, 0.14),
+        transparent
+    );
+
+    transform: rotate(-35deg);
+
+    pointer-events: none;
+}
+
+
+/* =========================================================
+   KEEP CONTENT ABOVE BACKGROUND
+========================================================= */
+
+.experience .section-container > * {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* =========================================================
+   PREMIUM VIGNETTE
+========================================================= */
+
+.experience {
+    box-shadow:
+        inset 0 120px 160px rgba(0, 0, 0, 0.18),
+        inset 0 -120px 160px rgba(0, 0, 0, 0.24);
+}
+
+/* =========================================================
+   CV — PREMIUM CREATIVE AGENCY BACKGROUND
+   MASTER COLOR — SAME AS HOME
+========================================================= */
+
+.cv {
+    position: relative;
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 20% 25%,
+            rgba(56, 189, 248, 0.08),
+            transparent 28%
+        ),
+        radial-gradient(
+            circle at 82% 78%,
+            rgba(30, 64, 175, 0.11),
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #020617 0%,
+            #0b1730 45%,
+            #111f3d 100%
+        );
+}
+
+
+/* =========================================================
+   CREATIVE LIGHT ORBS
+========================================================= */
+
+.cv::before,
+.cv::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    border-radius: 50%;
+    filter: blur(90px);
+}
+
+
+/* BLUE LIGHT — TOP LEFT */
+
+.cv::before {
+    width: 400px;
+    height: 400px;
+
+    top: -180px;
+    left: -120px;
+
+    background: rgba(56, 189, 248, 0.07);
+}
+
+
+/* DEEP BLUE LIGHT — BOTTOM RIGHT */
+
+.cv::after {
+    width: 380px;
+    height: 380px;
+
+    bottom: -180px;
+    right: -120px;
+
+    background: rgba(37, 99, 235, 0.09);
+}
+
+
+/* =========================================================
+   SUBTLE EDITORIAL GRID
+========================================================= */
+
+.cv .section-container::before {
+    content: "";
+
+    position: absolute;
+    inset: -100px;
+
+    pointer-events: none;
+
+    background-image:
+        linear-gradient(
+            rgba(255, 255, 255, 0.022) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.022) 1px,
+            transparent 1px
+        );
+
+    background-size: 80px 80px;
+
+    mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        black 20%,
+        black 80%,
+        transparent
+    );
+
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        black 20%,
+        black 80%,
+        transparent
+    );
+
+    z-index: 0;
+}
+
+
+/* =========================================================
+   DIAGONAL CREATIVE LIGHT
+========================================================= */
+
+.cv .section-container::after {
+    content: "";
+
+    position: absolute;
+
+    width: 650px;
+    height: 1px;
+
+    left: -180px;
+    top: 40%;
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(125, 211, 252, 0.14),
+        transparent
+    );
+
+    transform: rotate(35deg);
+
+    pointer-events: none;
+}
+
+
+/* =========================================================
+   KEEP CONTENT ABOVE BACKGROUND
+========================================================= */
+
+.cv .section-container > * {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* =========================================================
+   PREMIUM VIGNETTE
+========================================================= */
+
+.cv {
+    box-shadow:
+        inset 0 120px 160px rgba(0, 0, 0, 0.16),
+        inset 0 -120px 160px rgba(0, 0, 0, 0.22);
+}
+
+/* =========================================================
+   CONTACT — PREMIUM CREATIVE AGENCY BACKGROUND
+   MASTER COLOR — SAME AS HOME
+========================================================= */
+
+.contact {
+    position: relative;
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 78% 25%,
+            rgba(56, 189, 248, 0.11),
+            transparent 28%
+        ),
+        radial-gradient(
+            circle at 18% 78%,
+            rgba(30, 64, 175, 0.13),
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #020617 0%,
+            #0b1730 45%,
+            #111f3d 100%
+        );
+}
+
+
+/* =========================================================
+   CREATIVE LIGHT ORBS
+========================================================= */
+
+.contact::before,
+.contact::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    border-radius: 50%;
+    filter: blur(90px);
+}
+
+
+/* BLUE LIGHT — TOP RIGHT */
+
+.contact::before {
+    width: 420px;
+    height: 420px;
+
+    top: -180px;
+    right: -100px;
+
+    background: rgba(56, 189, 248, 0.09);
+}
+
+
+/* DEEP BLUE LIGHT — BOTTOM LEFT */
+
+.contact::after {
+    width: 380px;
+    height: 380px;
+
+    bottom: -180px;
+    left: -120px;
+
+    background: rgba(37, 99, 235, 0.10);
+}
+
+
+/* =========================================================
+   SUBTLE EDITORIAL GRID
+========================================================= */
+
+.contact .section-container::before {
+    content: "";
+
+    position: absolute;
+    inset: -100px;
+
+    pointer-events: none;
+
+    background-image:
+        linear-gradient(
+            rgba(255, 255, 255, 0.025) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.025) 1px,
+            transparent 1px
+        );
+
+    background-size: 80px 80px;
+
+    mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        black 20%,
+        black 80%,
+        transparent
+    );
+
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        black 20%,
+        black 80%,
+        transparent
+    );
+
+    z-index: 0;
+}
+
+
+/* =========================================================
+   DIAGONAL CREATIVE LIGHT
+========================================================= */
+
+.contact .section-container::after {
+    content: "";
+
+    position: absolute;
+
+    width: 700px;
+    height: 1px;
+
+    right: -200px;
+    top: 38%;
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(125, 211, 252, 0.18),
+        transparent
+    );
+
+    transform: rotate(-35deg);
+
+    pointer-events: none;
+}
+
+
+/* =========================================================
+   KEEP CONTENT ABOVE BACKGROUND
+========================================================= */
+
+.contact .section-container > * {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* =========================================================
+   PREMIUM VIGNETTE
+========================================================= */
+
+.contact {
+    box-shadow:
+        inset 0 120px 160px rgba(0, 0, 0, 0.16),
+        inset 0 -120px 180px rgba(0, 0, 0, 0.25);
+}
+
+/* =========================================================
+   GLOBAL — SMOOTH SCROLL
+========================================================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* =========================================================
+   SCROLL REVEAL
+========================================================= */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(35px);
+
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* =========================================================
+   GLOBAL — ONE CONTINUOUS CANVAS
+========================================================= */
+
+html,
+body {
+    background:
+        radial-gradient(
+            circle at 78% 25%,
+            rgba(56, 189, 248, 0.13),
+            transparent 28%
+        ),
+        radial-gradient(
+            circle at 18% 75%,
+            rgba(30, 64, 175, 0.12),
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #020617 0%,
+            #0b1730 45%,
+            #111f3d 100%
+        );
+
+    background-attachment: fixed;
+}
+
+
+/* =========================================================
+   REMOVE HARD SECTION BACKGROUNDS
+========================================================= */
+
+.home,
+.about,
+.experience,
+.projects,
+.articles,
+.cv,
+.contact {
+    background: transparent !important;
+}
+
+
+/* =========================================================
+   REMOVE HARD SHADOW BETWEEN SECTIONS
+========================================================= */
+
+.home,
+.about,
+.experience,
+.projects,
+.articles,
+.cv,
+.contact {
+    box-shadow: none;
+}
+
+/* =========================================================
+   PREMIUM SECTION DIVIDER
+========================================================= */
+
+.home,
+.about,
+.experience,
+.projects,
+.articles,
+.cv,
+.contact {
+    border-bottom: 1px solid rgba(125, 211, 252, 0.08);
 }
